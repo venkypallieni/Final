@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #222;
+    color: #f8f4f4;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9f6f6;
+}
+
+.logo {
+    color: #0c0c0c;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #0b0b0b;
+}
+
+.slides-container {
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Set the height of your slides container */
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Place the content above the slides */
+    text-align: center;
+    color: #fff; /* Adjust text color as needed */
+}
+
+.hero h1,
+.hero p,
+.hero a {
+    margin: 0;
+}
+
+.hero a {
+    background-color: #e74c3c;
+    color: #0c0c0c;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Additional styles as needed */
+
+.slide.active {
+    opacity: 1;
+}

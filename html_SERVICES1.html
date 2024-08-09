@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Ireland Hair Salon</title>
+    <link rel="stylesheet" href="SERVICES.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="stylists.html">Stylists</a></li>
+                <li><a href="#">Book Now</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <a href="#"></a>Ireland Hair Salon</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="services">
+            <h1>Our Services</h1>
+            <div class="service">
+                <h2>Haircut</h2>
+                <p>Our experienced stylists provide a wide range of haircut options to suit your style.</p>
+            </div>
+            <div class="service">
+                <h2>Hair Color</h2>
+                <p>Transform your look with our professional hair coloring services.</p>
+            </div>
+            <div class="service">
+                <h2>Spa Treatments</h2>
+                <p>Relax and rejuvenate with our luxurious spa treatments for hair and scalp.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Ireland Hair Salon
+    </footer>
+
+    <script>
+        const servicesSection = document.querySelector(".services");
+        const toggleButton = document.getElementById("toggleBackground");
+
+        let backgroundVisible = true;
+
+        toggleButton.addEventListener("click", () => {
+            if (backgroundVisible) {
+                servicesSection.style.backgroundImage = "none";
+                backgroundVisible = false;
+            } else {
+                servicesSection.style.backgroundImage = "url('new-image.jpg')";
+                backgroundVisible = true;
+            }
+        });
+    </script>
+</body>
+</html>

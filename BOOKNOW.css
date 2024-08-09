@@ -1,0 +1,116 @@
+
+/* Reset some default styles */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    color: #f4f7f6a4;
+    font-size: 30px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire body with the video */
+    z-index: -90; /* Place video behind the content */
+    opacity: 0.8;
+}
+header {
+    background-color: rgb(45, 45, 45);
+    color: #e9e8e0;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Rest of your CSS remains unchanged */
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #4a6361;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh; /* Adjust as needed to control vertical alignment */
+}
+
+.Checkin-button {
+    padding: 10px 20px; /* Adjust button padding as needed */
+    background-color: #ed1212;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f0303;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+

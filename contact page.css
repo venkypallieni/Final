@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    color: #f4f7f6a4;
+    font-size: 30px;
+    font-weight: bold;
+}/* Add your CSS styles for header, form, and footer as needed */
+/* Example styles for the contact form */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* Basic styling for the footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Additional styling for the header and footer */
+/* ... */

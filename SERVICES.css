@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    color: #f4f7f6a4;
+    font-size: 30px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+}
+
+.logo {
+    color:blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1000%;
+    margin: -100 auto;
+    padding: 0px;
+}
+
+/* Styling for the services section */
+.services {
+        background-image: url('image.jpg');
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: #0b0b0b;
+    text-align: center;
+    padding: 20px;
+}
+
+.service {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #6cb6b7;
+}
+
+.service h2 {
+    color: #030303;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Basic styling for the footer */
+footer {
+    text-align: center;
+    background-color: #050505;
+    color: #fff;
+    padding: 1rem 0;
+}

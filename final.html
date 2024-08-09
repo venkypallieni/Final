@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ireland Hair Salon</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling for the header */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 50px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+            position: relative;
+        }
+
+        .hero {
+            background-image: url('image.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 220px 0;
+            color: #0b0b0b;
+        }
+
+        .hero h1 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .hero p {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            background-color: #e74c3c;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* Basic styling for the footer */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .text {
+            color: #f4f7f6a4;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home_page.html">Home</a></li>
+                <li><a href="html_SERVICES.html">Services</a></li>
+                <li><a href="STYLES.html">Stylists</a></li>
+                <li><a href="TEXTA_CONTACTPAGE.html">Contact</a></li>
+                <li><a href="html.html">Book Now</a></li>
+            </ul>
+        </nav>
+        <h2>IRELAND HAIR SALON</h2> 
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Ireland Hair Salon</h1>
+            <p>Book your appointment with our expert stylists today.</p>
+            <a href="html.html" id="bookNowButton">Book Now</a>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Ireland Hair Salon
+    </footer>
+
+    <script>
+        const homeLink = document.getElementById("homeLink");
+        const servicesLink = document.getElementById("servicesLink");
+        const stylistsLink = document.getElementById("stylistsLink");
+
+        function navigateToHome(event) {
+            event.preventDefault();
+            window.location.href = "home_page.html";
+        }
+
+        function navigateToServices(event) {
+            event.preventDefault();
+            window.location.href = "html_SERVICES.html";
+        }
+
+        function navigateToStylists(event) {
+            event.preventDefault();
+            window.location.href = "STYLES.html";
+        }
+
+        homeLink.addEventListener("click", navigateToHome);
+        servicesLink.addEventListener("click", navigateToServices);
+        stylistsLink.addEventListener("click", navigateToStylists);
+    </script>
+</body>
+</html>

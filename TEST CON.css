@@ -1,0 +1,106 @@
+/* Reset some default styles */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    color: #f4f7f6a4;
+    font-size: 30px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+}
+/* Styling for the contact section */
+.contact {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 5px 0;
+    color: #0b0b0b;
+}
+
+.contact h1, .contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+}
+
+.contact ul li {
+    margin-bottom: 5px;
+}
+
+/* Styling for the form */
+.form-group {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional styling for the footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

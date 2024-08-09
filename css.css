@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    color: #f4f7f6a4;
+    font-size: 30px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+}
+.hero {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 220px 0;
+    color: #0b0b0b;
+}
+
+.hero h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero a {
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Basic styling for the footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

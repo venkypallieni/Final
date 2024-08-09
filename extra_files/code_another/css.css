@@ -1,0 +1,72 @@
+/* Reset some default styles */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #222;
+    color: #0c0c0c;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+.logo {
+    color: #0c0c0c;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Styling for the hero section */
+.hero {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+    color: #0b0b0b;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero a {
+    background-color: #e74c3c;
+    color: #0c0c0c;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Basic styling for the footer */
+footer {
+    background-color: #bebcbc;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 10px 0;
+}
